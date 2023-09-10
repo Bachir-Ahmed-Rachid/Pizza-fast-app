@@ -28,6 +28,7 @@ function Button({ children, disabled, to, type, addToCartHandler }) {
         {children}
       </button>
     );
+
   return (
     <button disabled={disabled} className={styles[type]}>
       {children}
